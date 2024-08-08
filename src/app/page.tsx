@@ -23,10 +23,6 @@ export default function Home() {
 
         {/* Comment Example */}
 
-        {comments.map(comment => {
-          return <Comment {...comment} key={comment.username} />
-        })}
-
         {/* Reply Example */}
         
 
