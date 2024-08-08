@@ -5,7 +5,7 @@ interface ReplyProps {
     ImagePath: string;
     username: string;
     replyTitle: string;
-    likes: Number;
+    likes: number;
 }
 
 interface CommentProps {
